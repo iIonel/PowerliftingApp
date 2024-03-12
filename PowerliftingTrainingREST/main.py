@@ -1,5 +1,5 @@
 from http.server import HTTPServer
-from controller.http_handler import HttpHandler
+from handler.http_handler import HttpHandler
 from util.database import Database
 
 
