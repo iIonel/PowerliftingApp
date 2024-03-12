@@ -8,7 +8,7 @@
 ```
 #### Get all users by id
 
-```http
+```
   GET /users/${id}
 ```
 | Parameter | Type     | Description                |
@@ -17,7 +17,7 @@
 
 #### Get all users by status 💉
 
-```http
+```
   GET /users/status/${natty}
 ```
 
@@ -27,7 +27,7 @@
 
 #### Get user by email
 
-```http
+```
   GET /users/email/${email}
 ```
 | Parameter | Type     | Description                |
@@ -36,13 +36,13 @@
 
 #### Get all exercises
 
-```http
+```
   GET /exercises/
 ```
 
 #### Post user
 
-```http
+```
   POST /users/add/
 ```
 
@@ -58,7 +58,7 @@
 
 #### Post personal record
 
-```http
+```
   POST /users/add_record/
 ```
 
@@ -72,7 +72,7 @@
 
 #### Post exercise
 
-```http
+```
   POST /exercises/add/
 ```
 
@@ -84,25 +84,25 @@
 | `video_link`   | `string`|  **Required**| 
 
 #### Delete user
-```http
+```
   DELETE /users/delete/
 ```
 
 #### Delete exercise
 
-```http
+```
   DELETE /exercises/delete/
 ```
 
 #### Put user
 
-```http
+```
   PUT /users/update/
 ```
 
 #### Put exercise
 
-```http
+```
   PUT /exercises/update/
 ```
 
