@@ -3,7 +3,7 @@
 
 #### Get all users
 
-```http
+```
   GET /users/
 ```
 #### Get all users by id
